@@ -1,4 +1,4 @@
-# Node
+# Node standard ignore list
 ## Logs
 logs
 *.log
@@ -9,14 +9,20 @@ yarn-error.log*
 ## Dependency directories
 node_modules/
 
-# git
+# git standard ignore list
 .git
 .gitattributes
 .gitignore
 
 
-# Common
+# Common list for all apps
 README.md
 CHANGELOG.md
 docker-compose.yml
 Dockerfile
+
+
+# tests
+test
+**/*.spec.*
+**/*.test.*
