@@ -1,0 +1,28 @@
+# Node standard ignore list
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Dependency directories
+node_modules/
+
+# git standard ignore list
+.git
+.gitattributes
+.gitignore
+
+
+# Common list for all apps
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+
+
+# tests
+test
+**/*.spec.*
+**/*.test.*
